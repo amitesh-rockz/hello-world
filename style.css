@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+div.menu, ul, li{
+	margin:0;
+	padding:0;
+}
+div.menu{
+	left: -285px;  /* start off behind the scenes */
+	height: 100%;
+	position: fixed;
+	width: 285px;
+	background-color:#ffeb3b;
+	cursor:pointer;
+}
+div.menu ul{
+	list-style:none;
+	height:100%;
+
+}
+div.menu ul li{
+	font-family:lato;
+	font-size:1.7em;
+	color:#424242;
+	padding-left:25px;
+	padding-bottom:3px;
+	padding-top:2px;
+	text-transform:capitalize;
+}
+div.menu ul li:hover{
+	color:#00bcd4;
+	font-weight:150;
+}
+#more{
+	width:200px;
+	height:150px;
+	position:absolute;
+	top:5px;
+	left:8px;
+}
+.close{
+	float:right;
+}
+.close:hover{
+	background-color:#ff1744;
+}
